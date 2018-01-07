@@ -2,42 +2,67 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Animal Rescue Website</title>
-  <<meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>B.A.R.K. — Home</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-
 </head>
 <body>
-  <header>
 
-  <!-- NAVIGATION BAR -->
-  <div class="nav-container">
-    <ul class="nav-items">
-      <li class="nav-item"><a href="#">Rescues</a></li>
-      <li class="nav-item"><a href="#">Adopt</a></li>
+  <ul class="skip-links">
+    <li><a href="#nav">Jump to nav</a>
+    <li><a href="#main">Jump to main</a>
+    <li><a href="#content">Jump to content</a></li>
+    <li><a href="#about">Jump to about</a></li>
+  </ul>
 
-      <li class="nav-item nav-item-dropdown">
-        <a class="dropdown-trigger" href="#">Home</a>
-        <ul class="dropdown-menu">
-          <li class="dropdown-menu-item">
-            <a href="#">Our History/Team</a>
-          </li>
-          <li class="dropdown-menu-item">
-            <a href="#">Volunteer</a>
-          </li>
-          <li class="dropdown-menu-item">
-            <a href="#">Contact</a>
-          </li>
+  <header role="banner" class="max-width gutter-2 pad-t">
+      <p class="logo bold mega left">B.A.R.K.<a href="index.html">
+      </p>
+
+    <div>
+      <nav tabindex="0" id="nav" role="navigation" class="bold milli">
+        <ul class="nav-wrapper list-group text-upper">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rescues.html">Our Rescues</a></li>
+          <li><a href="adopt.html">Adoption</a></li>
+          <li><a href="#">Donate</a></li>
         </ul>
-      </li>
-    </ul>
-  </div>
-  <!-- END OF NAVIGATION BAR -->
+      </nav>
+    </div>
   </header>
+
+  <!-- BANNER CONTENT -->
+
+  <main role="main">
+    <section id="banner-content">
+      <div class="banner-container homepage-banner island">
+        <div class="banner-wrapper island gutter-2">
+          <h1 class="push-1-2">Search Our <span class="orange-text">Sheltered<br> Dog's</span> In Need</h1>
+          <p class="banner-sentence">There is a home for everyone,<br> you just need to find it.</p>
+          <a href="adopt.html" class="btn btn-ghost" aria-label="Get started on adopting">Get Started</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="emergency text-center">
+    <div class="emergency-content island">
+      <p class="emergency-info push-0">In any event of a kanine emergency, please call...</p>
+      <h3 class="emergency-number push-0">613-123-456</h3>
+    </div>
+  </section>
+
+  <footer class="micro gutter-1-2 grid">
+  <div class="copyright text-left bold pad-t gutter unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      <p class="micro pad-b push-0">© 2017 - B.A.R.K</p>
+  </div>
+  </footer>
+
+
 
 </body>
 </html>
