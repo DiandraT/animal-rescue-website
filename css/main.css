@@ -81,4 +81,8 @@ h1 {
   header nav {
     text-align: right;
   }
+
+  .page-content {
+    padding: 0 9em;
+  }
 }
