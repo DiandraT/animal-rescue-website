@@ -144,6 +144,12 @@ h1 {
   background-color: #bec6c9;
 }
 
+/** ADOPT PAGE **/
+
+fieldset {
+  border: none;
+}
+
 @media only screen and (min-width: 25em) {
 
   header nav ul li {

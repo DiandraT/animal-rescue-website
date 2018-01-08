@@ -49,14 +49,56 @@
     </section>
   </main>
 
-  <form action="index.html" method="POST">
+  <form action="index.html" method="POST" class="push-0">
 
     <fieldset class="wrapper push-0">
-      <legend>Personal Contact</legend>
+      <legend class="giga gutter-1-2 red push">Personal Contact</legend>
+
+      <div class="grid">
+        <div class="unit xs-1 s-1 l-1 xl-1 push-1-2 gutter-1-2">
+          <label for="first-name" class="push-1-2">Full Name</label>
+          <input type="text" id="first-name" name="name">
+        </div>
+
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-2 pad-t">
+          <label for="birthday" class="push-1-2">Date of Birth</label>
+          <input id="birthday" name="birthday" type="date">
+        </div>
+
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-2 pad-t">
+          <label for="email push-1-2" class="push-1-2">Email</label>
+          <input type="email" name="email" id="email required">
+        </div>
+
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-2 pad-t">
+          <label for="number" class="push-1-2">Primary Phone</label>
+          <input type="telephone" name="number" id="number" required>
+        </div>
+
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-2 pad-t push">
+          <label for="number" class="push-1-2">Secondary Phone</label>
+          <input type="telephone" name="number" id="number">
+        </div>
     </fieldset>
 
-    <div>
+    <fieldset class="wrapper push-0">
+      <legend class="giga gutter-1-2 red push pad-t-2">Address</legend>
+
+      <div class="grid grid-middle">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-2">
+          <label for="address">Street Address</label>
+          <input type="text" name="address" id="address">
+        </div>
+      </div>
+
+      <div class="grid grid-middle">
+      </div>
+    </feildset>
+
+      </div>
     </div>
+
+
   </fieldset>
   </form>
 
