@@ -3,7 +3,7 @@ html {
 }
 
 .logo {
-  color: #ce9845;
+  color: #000;
 }
 
 /** NAVIGATION**/
@@ -22,6 +22,7 @@ header nav li a {
 
 header nav li a:hover {
   color: #e2e2e2;
+  outline: none;
 }
 
 /** BANNER CONTENT **/
@@ -56,6 +57,7 @@ h1 {
   border: none;
   color: #fff;
   background-color: #0a6187;
+  outline: none;
 }
 
 .btn:hover {
@@ -63,16 +65,53 @@ h1 {
   color: #fff;
 }
 
+.style-line {
+  border-top: 2px solid #e2e2e2;
+  width: 50%;
+  margin-left: 25%;
+}
+
 .emergency {
   background-color: #871014;
   color: #fff;
 }
 
+.get-involved a {
+  list-style-type: none;
+  color: #000;
+  outline: none;
+}
+
+.vertical-line {
+  border-left: 2px solid #000;
+  height: 8em;
+}
+
+.img-flex {
+  width: 100%;
+}
+
+.card-hover:hover {
+  background-color: #0a6187;
+}
+.card-content {
+  background-color: #e2e2e2;
+  color: #0a6187;
+}
+
+.card {
+  text-decoration: none;
+  list-style-type: none;
+}
 @media only screen and (min-width: 25em) {
 
   header nav ul li {
     display: inline;
     padding: 0 1em;
+  }
+
+  .vertical-line {
+    display: none;
   }
 }
 
@@ -84,5 +123,9 @@ h1 {
 
   .page-content {
     padding: 0 9em;
+  }
+
+  .vertical-line {
+    display: block;
   }
 }
