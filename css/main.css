@@ -2,8 +2,15 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+.logo img {
+  width: 70%;
+  max-width: 150px;
+  min-width: 50px;
+}
+
 .logo {
-  color: #000;
+  margin: 0 auto;
+  outline: none;
 }
 
 /** NAVIGATION**/
@@ -21,8 +28,10 @@ header nav li a {
 }
 
 header nav li a:hover {
-  color: #e2e2e2;
   outline: none;
+  border-bottom: 0px;
+  border-bottom: 2px solid #0a6187;
+  padding-bottom: 3px;
 }
 
 /** BANNER CONTENT **/
@@ -65,6 +74,10 @@ h1 {
   color: #fff;
 }
 
+.opening-subhead {
+  color: #cd9743;
+}
+
 .style-line {
   border-top: 2px solid #e2e2e2;
   width: 50%;
@@ -92,7 +105,7 @@ h1 {
 }
 
 .card-hover:hover {
-  background-color: #0a6187;
+  background-color: #ce9845;
 }
 .card-content {
   background-color: #e2e2e2;
