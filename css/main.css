@@ -90,7 +90,7 @@ h1 {
 }
 
 .opening-subhead {
-  color: #cd9743;
+  color: #000;
 }
 
 .style-line {
@@ -131,7 +131,7 @@ h1 {
 }
 
 .card-color {
-  color: #0a6187;
+  color: #000;
   background-color: #e2e2e2;
   text-decoration: none;
 }
@@ -140,14 +140,27 @@ h1 {
   background-color: #d3d3d3;
 }
 
-.rescue-card:hover {
-  background-color: #bec6c9;
-}
-
 /** ADOPT PAGE **/
 
 fieldset {
   border: none;
+}
+
+legend {
+  color: #0a6187;
+}
+
+input,
+select {
+  border-radius: .75em;
+  border: 2px solid #000;
+  outline: none;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  outline: none;
 }
 
 @media only screen and (min-width: 25em) {
